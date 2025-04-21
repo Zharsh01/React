@@ -34,7 +34,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-white static dark:bg-gray-900 dark:text-white duration-200">
+    <div className="bg-white  dark:bg-gray-900 dark:text-white duration-200">
       <NavBar handleOrderPopup={handleOrderPopup}/>
       <HeroSec handleOrderPopup={handleOrderPopup}/>
       <Product />
